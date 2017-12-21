@@ -1,4 +1,4 @@
-/* Corrine Smith
+/* Corrine Smith, Melanie Cheng, Anne Marie Brook, Charles Beers, and Matt Harmon
  * CSCI 315
  * Lab 11
  * 11/28/2017
