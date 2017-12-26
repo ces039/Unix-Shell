@@ -21,6 +21,8 @@ int total_days(int y, int m, int d);
 long days(int y, int m, int d);         
 void display_calendar(int y, int m); 
 
+
+//History functionality done by Charles
 struct dlist *history;
 
 //Checks the string to see if it contains a tab. Returns 0 if a tab is found in the string, 0 otherwise.
@@ -38,6 +40,7 @@ void history_init(){
     return;
 }
 
+//Calendar functionality done by Matt
 void calendar(int year, int month) {
   	/* gets the month and yead for the desired calendar 
    	* returns -1 on error, 0 on success 
@@ -53,7 +56,7 @@ void calendar(int year, int month) {
 
   	return;
 	}
-
+//part of Calendar functionality
 int check_leap_year(int y) {
 	/* Returns 1 if leap year, 0 for common year */
 
@@ -71,7 +74,7 @@ int check_leap_year(int y) {
 
   	}
 }
-
+//part of calendar functionality
 int total_leap_years(int y){
   	/* The number of leap year */
 
@@ -80,7 +83,7 @@ int total_leap_years(int y){
 
   	return leap_years;
 }
-
+//part of calendar functionality
 int total_days(int y, int m, int d) {
   	/* Gets the total number of days since the beginning of the year */
 
@@ -96,7 +99,7 @@ int total_days(int y, int m, int d) {
 
   	return num_days;
 }
-
+//part of calendar functionality
 long days(int y, int m, int d) {
 
   	int prev_year;
@@ -107,7 +110,7 @@ long days(int y, int m, int d) {
 
  	return num_days;
 }
-
+//part of calendar functionality
 void display_calendar(int y, int m) {
   	/* display calendar at m y */
 
@@ -285,7 +288,7 @@ int main(){
 				}
 			}
 		}
-
+		//double tab pwd functionality done by Anne Marie
 		else if(check_tab(string) == 0){
                         //resets the input string
                         memset(string, 0, 100);
